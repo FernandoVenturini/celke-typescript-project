@@ -3,6 +3,8 @@
 
 ### Como rodar o projeto baixado
 
+### Instalar as dependencias indicadas pelo arquivo package.json.
+    *** npm install
 
 ### Sequencia para criar o projeto
     *** Criar o arquivo package.json
@@ -27,3 +29,6 @@
 
 ### Executar o arquivo JavaScript compilado.
     *** node dist/index.js
+
+### Compilar os arquivos TypeScript. O compilador fica monitorando os arquivos .ts do projeto. Sempre que um arquivo e alterado, o tsc recompila automaticamente as alteracoes para gerar os arquivos .js correspondentes.
+    *** npx tsc -watch
