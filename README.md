@@ -1,34 +1,33 @@
-### Requisitos
-    *** Node.js 22 ou superior - Conferir a versao: node -v
+### Requirements
+   *** Node.js 22 or higher - Check the version: node -v
 
-### Como rodar o projeto baixado
+### How to run the downloaded project
 
-### Instalar as dependencias indicadas pelo arquivo package.json.
-    *** npm install
+### Install the dependencies indicated by the package.json file.
+   *** npm install
 
-### Sequencia para criar o projeto
-    *** Criar o arquivo package.json
-        * npm init (Cria o arquivo manualmente)
-        * npm init -y (Cria o arquivo automaticamente)
+### Sequence to create the project
+   *** Create the package.json file
+      * npm init (Create the file manually)
+      * npm init -y (Create the file automatically)
 
-### Instalar o TypeScript como uma dependencia de desenvolvimento.
-    *** npm install --save-dev typescript
+### Install TypeScript as a development dependency.
+   *** npm install --save-dev typescript
 
-### Criar o arquivo tsconfig.json, executar quando o typescript foi instalado somente no projeto.
-    *** npx tsc --init
+### Create the tsconfig.json file, run when typescript has been installed only in the project. *** npx tsc --init
 
-### Coloca no arquivo tsconfig.json:
-    *** "outDir": "./dist",
-    *** "rootDir": "./src",
-    *** "include": [
-        "./src/**/*.ts"
-    ]
+### Put in the tsconfig.json file:
+   *** "outDir": "./dist",
+   *** "rootDir": "./src",
+   *** "include": [
+      "./src/**/*.ts"
+      ]
 
-### Compilar os arquivos TypeScript.
-    *** npx tsc
+### Compile the TypeScript files.
+   *** npx tsc
 
-### Executar o arquivo JavaScript compilado.
-    *** node dist/index.js
+### Run the compiled JavaScript file.
+   *** node dist/index.js
 
-### Compilar os arquivos TypeScript. O compilador fica monitorando os arquivos .ts do projeto. Sempre que um arquivo e alterado, o tsc recompila automaticamente as alteracoes para gerar os arquivos .js correspondentes.
-    *** npx tsc -watch
+### Compile the TypeScript files. The compiler keeps track of the project's .ts files. Whenever a file is changed, tsc automatically recompiles the changes to generate the corresponding .js files.
+   *** npx tsc -watch
