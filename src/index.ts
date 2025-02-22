@@ -68,3 +68,5 @@ console.log(`Customer purchase quantity: ${client.amount}`);
 // Criar variavel utilizando union indicando um ou mais tipo
 const value:string | boolean = 'Cesar';
 console.log(`Value can be string or boolean: ${value}`);
+
+// Create function and define parameter type and return type
